@@ -63,8 +63,8 @@ bazel run :java-guice
 - 理解guice框架的使用
 - 理解如何新增guice依赖
 
-## java-guice
-> 基于java-maven的理解，新增guice框架的maven依赖，因此此项的侧重点将会是Guice框架，而非bazel了。
+## java-grpc
+> 基于bazel的grpc实践
 
 ### 运行
 ```shel 
@@ -72,6 +72,7 @@ cd java-grpc
 bazel run :hello-world-client
 bazel run :hello-world-server
 ```
+> 参考grpc示例：https://github.com/grpc/grpc-java/tree/master/examples
 
 #### 学习目标：
 - 理解如何在bazel中引入grpc，难点在于
