@@ -1,0 +1,6 @@
+/bazel-bin/
+bazel-bin
+bazel-*/
+bazel-*
+.ijwb/
+.DS_Store
